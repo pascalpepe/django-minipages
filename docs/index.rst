@@ -27,5 +27,6 @@ Contents
    :maxdepth: 2
 
    getting-started
+   references/index
    releases/index
    license

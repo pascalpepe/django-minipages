@@ -19,7 +19,15 @@ from django.utils.translation import gettext_lazy as _
 
 
 class Page(models.Model):
-    """Model representing a page."""
+    """Model representing a page.
+
+    Attributes
+    ----------
+    title : CharField
+        Page title.
+    content : TextField, optional
+        Page content.
+    """
 
     title = models.CharField(
         max_length=255,
@@ -35,7 +43,9 @@ class Page(models.Model):
         verbose_name_plural = _('pages')
 
     def __str__(self):
+        """Return the object string representation."""
         return self.title
 
     def get_absolute_url(self):
+        """Return the absolute URL of the page."""
         return reverse('minipages:page-detail', args=[str(self.id)])
