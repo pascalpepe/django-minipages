@@ -4,4 +4,76 @@ miniPages 0.1.0 release notes
 
 *August 31, 2020*
 
--
+.. contents::
+   :local:
+   :depth: 1
+
+----
+
+The miniPages open-source project
+=================================
+
+- Created the miniPages Python package.
+- Added the initial page model with:
+
+  * Fields: ``title``, ``content``.
+  * Methods: ``get_absolute_url``.
+
+- Added initial views:
+
+  * PageDetail
+  * PageList
+
+- Added initial admin site configuration.
+- Added initial URL configuration.
+- Added English (default) and French translations.
+- Released the source code on GitLab under the
+  `Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_.
+- Released the project on `PyPI <https://pypi.org/project/django-minipages/>`_.
+
+----
+
+Tests
+=====
+
+- Set up the project testing suite with:
+
+  * `tox <https://tox.readthedocs.io>`_ for automated testing,
+  * `Coverage.py <https://coverage.readthedocs.io>`_ for measuring code coverage,
+  * `Flake8 <https://flake8.readthedocs.io>`_ for linting,
+  * `GitLab CI/CD <https://docs.gitlab.com/ee/ci/README.html>`_ for continuous integration.
+
+- Added tox environments and GitLab CI jobs to support the following versions of Python and Django:
+
+  ======= ===================================
+  Django  Python
+  ======= ===================================
+  2.2 LTS 3.5, 3.6, 3.7, 3.8 (added in 2.2.8)
+  ------- -----------------------------------
+  3.1     3.6, 3.7, 3.8
+  ======= ===================================
+
+----
+
+Documentation
+=============
+
+- Initialized the project documentation with `Sphinx <https://www.sphinx-doc.org>`_ and a
+  `theme <https://github.com/rtfd/sphinx_rtd_theme>`_ provided by
+  `Read the Docs <https://readthedocs.org/>`_.
+- Set up Sphinx autodoc extension to include documentation from docstrings.
+- Set up Sphinx napoleon extension to add support for NumPy style docstrings.
+- Added initial pages:
+
+  * Getting started
+  * Module references
+  * Release notes
+  * License
+
+----
+
+GitLab Pages
+============
+
+- Set up GitLab CI/CD to continuously deploy the documentation for the main
+  branch on GitLab Pages: https://pascalpepe.gitlab.io/django-minipages
