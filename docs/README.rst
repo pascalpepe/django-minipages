@@ -4,7 +4,7 @@ miniPages documentation
 
 The documentation of miniPages is written
 in `reStructuredText <https://docutils.sourceforge.io/rst.html>`_ and built
-with `Sphinx <https://www.sphinx-doc.org/en/master/>`_ You can read it:
+with `Sphinx <https://www.sphinx-doc.org/en/master/>`_. You can read it:
 
 - at https://pascalpepe.gitlab.io/django-minipages,
 - in plain text in this directory,
@@ -15,8 +15,8 @@ Building a local version
 ========================
 
 The easiest way to build a local version of the documentation is by using
-the `tox <https://tox.readthedocs.io/en/latest/>`_ command line already
-included in the project:
+the `tox <https://tox.readthedocs.io/en/latest/>`_ command line that is
+already included in the project:
 
 1. Get the project source code from its `Git repository <https://gitlab.com/pascalpepe/django-minipages.git>`_:
 
@@ -37,8 +37,9 @@ included in the project:
 
        tox -e docs-public
 
-4. The HTML pages can be found in the `public/` directory. Open `index.html`
-   in your favorite web browser to start reading the documentation.
+4. The HTML pages can be found in the ``public/`` directory. Open
+   ``index.html`` in your favorite web browser to start reading the
+   documentation.
 
 
 License
