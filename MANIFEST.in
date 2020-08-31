@@ -1,0 +1,8 @@
+include LICENSE
+include MANIFEST.in
+include NOTICE
+include README.rst
+recursive-include docs *.rst
+graft minipages
+global-exclude __pycache__
+global-exclude *.py[cod]

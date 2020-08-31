@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Unit test / coverage reports
+*.py,cover
+.coverage
+.tox/
+coverage.json
+coverage.xml
+htmlcov/
+
+# Django
+.data/
+db.sqlite3
+
+# Sphinx
+docs/_build/
+
+# GitLab Pages
+public/
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+ENV/
+env/
+env.bak/
+venv/
+venv.bak/
+
+# Logs
+logs
+*.log
+
+# Text editor / IDE settings
+*.sublime-*
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+[Dd]esktop.ini
+Thumbs.db
