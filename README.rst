@@ -2,13 +2,13 @@
 miniPages
 =========
 
-.. image:: https://img.shields.io/badge/license-Apache--2.0-blue.svg
+.. image:: https://img.shields.io/pypi/l/django-minipages
    :alt: Apache-2.0
    :target: https://gitlab.com/pascalpepe/django-minipages/blob/main/LICENSE
 
 .. image:: https://img.shields.io/pypi/v/django-minipages
    :alt: PyPI
-   :target: https://gitlab.com/pascalpepe/django-minipages/
+   :target: https://pypi.org/project/django-minipages/
 
 .. image:: https://gitlab.com/pascalpepe/django-minipages/badges/main/pipeline.svg
    :alt: Pipeline status
