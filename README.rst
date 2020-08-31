@@ -10,8 +10,16 @@ miniPages
    :alt: PyPI
    :target: https://pypi.org/project/django-minipages/
 
+.. image:: https://img.shields.io/pypi/pyversions/django-minipages
+   :alt: Python
+   :target: https://pypi.org/project/django-minipages/
+
+.. image:: https://img.shields.io/pypi/djversions/django-minipages?label=django
+   :alt: Django
+   :target: https://pypi.org/project/django-minipages/
+
 .. image:: https://gitlab.com/pascalpepe/django-minipages/badges/main/pipeline.svg
-   :alt: Pipeline status
+   :alt: Pipeline
    :target: https://gitlab.com/pascalpepe/django-minipages/-/pipelines
 
 miniPages is a Django application for managing simple web pages.
