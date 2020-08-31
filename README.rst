@@ -6,6 +6,10 @@ miniPages
    :alt: Apache-2.0
    :target: https://gitlab.com/pascalpepe/django-minipages/blob/main/LICENSE
 
+.. image:: https://gitlab.com/pascalpepe/django-minipages/badges/main/pipeline.svg
+   :alt: Pipeline status
+   :target: https://gitlab.com/pascalpepe/pascalpepe/django-minipages/-/pipelines
+
 miniPages is a Django application for managing simple web pages.
 
 :Home: https://www.pascalpepe.com/en/projects/django-minipages/
@@ -21,15 +25,27 @@ This project is still in its initial development stage. Anything may change at
 any time.
 
 
+Supported versions of Python and Django
+=======================================
+
+======= ===================================
+Django  Python
+======= ===================================
+2.2 LTS 3.5, 3.6, 3.7, 3.8 (added in 2.2.8)
+------- -----------------------------------
+3.1     3.6, 3.7, 3.8
+======= ===================================
+
+
 Documentation
 =============
 
 The documentation of this project is available at
 https://pascalpepe.gitlab.io/django-minipages.
 
-- `Getting started <https://pascalpepe.gitlab.io/django-minipages>`_
-- `Module references <https://pascalpepe.gitlab.io/django-minipages>`_
-- `Release notes <https://pascalpepe.gitlab.io/django-minipages>`_
+- `Getting started <https://pascalpepe.gitlab.io/django-minipages/getting-started.html>`_
+- `Module references <https://pascalpepe.gitlab.io/django-minipages/references/index.html>`_
+- `Release notes <https://pascalpepe.gitlab.io/django-minipages/releases/index>`_
 
 
 Licenses
