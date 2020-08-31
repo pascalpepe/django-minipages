@@ -7,7 +7,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 
 setup(
     name='django-minipages',
-    version='0.1.0.dev1',
+    version='0.1.0',
     description='Django application for managing simple web pages.',
     long_description=README,
     long_description_content_type='text/x-rst',
