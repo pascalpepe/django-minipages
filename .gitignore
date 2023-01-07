@@ -11,7 +11,6 @@ dist/
 *.py,cover
 .coverage
 .coverage.*
-.tox/
 coverage.json
 coverage.xml
 htmlcov/

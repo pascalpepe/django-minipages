@@ -1,0 +1,70 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "django-minipages"
+description = "Django application for managing simple web pages."
+readme = "README.rst"
+requires-python = ">=3.5"
+license = { text = "Apache-2.0" }
+keywords = ["django", "pages"]
+authors = [
+  { name = "Pascal Pepe", email = "contact@pascalpepe.com" },
+]
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Environment :: Web Environment",
+  "Framework :: Django",
+  "Framework :: Django :: 2.2",
+  "Framework :: Django :: 3.1",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.5",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Topic :: Internet",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+dependencies = [
+  "django>=2.2",
+]
+dynamic = ["version"]
+
+[project.urls]
+"Documentation" = "https://github.com/pascalpepe/django-minipages/tree/main/docs"
+"Source code" = "https://github.com/pascalpepe/django-minipages"
+"Issue tracker" = "https://github.com/pascalpepe/django-minipages/issues"
+
+[tool.hatch.version]
+path = "src/minipages/__about__.py"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.github",
+  "/docs",
+  "/tests",
+  "/.flake8",
+  "/manage.py",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/minipages"]
+
+[tool.coverage.run]
+branch = true
+omit = [
+  "manage.py",
+  "src/minipages/__about__.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+  "if __name__ == .__main__.:",
+]
