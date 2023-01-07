@@ -18,6 +18,10 @@ MiniPages
    :alt: Django
    :target: https://pypi.org/project/django-minipages/
 
+.. image:: https://github.com/pascalpepe/django-minipages/actions/workflows/ci.yml/badge.svg
+   :alt: CI
+   :target: https://github.com/pascalpepe/django-minipages/actions/workflows/ci.yml
+
 MiniPages is a Django application for managing simple web pages.
 
 :Home: https://github.com/pascalpepe/django-minipages#readme
