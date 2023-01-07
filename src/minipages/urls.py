@@ -17,9 +17,9 @@ from django.urls import path
 
 from minipages import views
 
-app_name = 'minipages'
+app_name = "minipages"
 
 urlpatterns = [
-    path('<int:pk>/', views.PageDetail.as_view(), name='page-detail'),
-    path('', views.PageList.as_view(), name='page-list'),
+    path("<int:pk>/", views.PageDetail.as_view(), name="page-detail"),
+    path("", views.PageList.as_view(), name="page-list"),
 ]
