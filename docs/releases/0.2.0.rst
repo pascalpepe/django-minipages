@@ -20,3 +20,12 @@ Packaging
   latest recommendations of the `PyPA <https://www.pypa.io>`_.
 - Replaced setuptools with `Hatchling <https://hatch.pypa.io>`_ as the build
   backend for the project.
+
+
+Tests
+=====
+
+- Added the following tools to the testing suite:
+
+  * `black <https://black.readthedocs.io>`_ for formatting Python code.
+  * `isort <https://pycqa.github.io/isort/>`_ for sorting imports.

@@ -14,31 +14,28 @@ with `Sphinx <https://www.sphinx-doc.org/en/master/>`_. You can read it:
 Building a local version
 ========================
 
-The easiest way to build a local version of the documentation is by using
-the `tox <https://tox.readthedocs.io/en/latest/>`_ command line that is
-already included in the project:
-
-1. Get the project source code from its `Git repository <https://github.com/pascalpepe/django-minipages>`_:
+1. Get the project source code:
 
    .. code-block:: bash
 
-       git clone https://github.com/pascalpepe/django-minipages.git
+       git clone https://github.com/pascalpepe/django-minipages
        cd django-minipages/
 
-2. Install tox (preferably within a `Python virtual environment <https://docs.python.org/3/library/venv.html>`_):
+2. Install dependencies (preferably within a `Python virtual environment <https://docs.python.org/3/library/venv.html>`_):
 
    .. code-block:: bash
 
-       pip install tox
+       python -m pip install -e .
+       python -m pip install -r docs/requirements.txt
 
-3. Run the following command to install all dependencies and compile the
-   documentation:
+3. Build the documentation:
 
    .. code-block:: bash
 
-       tox -e docs-public
+       cd docs/
+       make html
 
-4. The HTML pages can be found in the ``docs/_build/`` directory. Open
+4. The HTML pages can be found in the ``_build/`` directory. Open
    ``index.html`` in your favorite web browser to start reading the
    documentation.
 

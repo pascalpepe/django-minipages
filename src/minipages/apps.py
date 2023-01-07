@@ -20,5 +20,5 @@ from django.utils.translation import gettext_lazy as _
 class MiniPagesConfig(AppConfig):
     """Default application configuration."""
 
-    name = 'minipages'
-    verbose_name = _('Pages')
+    name = "minipages"
+    verbose_name = _("Pages")

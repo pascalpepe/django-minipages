@@ -13,4 +13,4 @@
 # limitations under the License.
 
 # Automatically load the default application configuration
-default_app_config = 'minipages.apps.MiniPagesConfig'
+default_app_config = "minipages.apps.MiniPagesConfig"

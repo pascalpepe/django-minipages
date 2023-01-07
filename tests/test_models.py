@@ -24,14 +24,14 @@ class PageModelTest(TestCase):
     @classmethod
     def setUpTestData(cls):
         """Create objects for all tests."""
-        cls.page = Page.objects.create(title='Foo', content='bar')
+        cls.page = Page.objects.create(title="Foo", content="bar")
 
     def test_title_max_length(self):
-        max_length = self.page._meta.get_field('title').max_length
+        max_length = self.page._meta.get_field("title").max_length
         self.assertEquals(max_length, 255)
 
     def test_object_string_representation(self):
         self.assertEquals(str(self.page), self.page.title)
 
     def test_get_absolute_url(self):
-        self.assertEquals(self.page.get_absolute_url(), '/pages/1/')
+        self.assertEquals(self.page.get_absolute_url(), "/pages/1/")

@@ -16,5 +16,5 @@
 from django.urls import include, path
 
 urlpatterns = [
-    path('pages/', include('minipages.urls')),
+    path("pages/", include("minipages.urls")),
 ]

@@ -25,34 +25,34 @@ class PageDetailViewTest(TestCase):
     @classmethod
     def setUpTestData(cls):
         """Create objects for all tests."""
-        cls.page = Page.objects.create(title='Foo', content='bar')
+        cls.page = Page.objects.create(title="Foo", content="bar")
 
     def test_route_from_name(self):
         response = self.client.get(self.page.get_absolute_url())
         self.assertEqual(response.status_code, 200)
 
     def test_route_from_path(self):
-        response = self.client.get('/pages/1/')
+        response = self.client.get("/pages/1/")
         self.assertEqual(response.status_code, 200)
 
     def test_templates_used(self):
         response = self.client.get(self.page.get_absolute_url())
         self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, 'minipages/page_detail.html')
+        self.assertTemplateUsed(response, "minipages/page_detail.html")
 
 
 class PageListViewTest(TestCase):
     """Tests for the page list view."""
 
     def test_route_from_name(self):
-        response = self.client.get(reverse('minipages:page-list'))
+        response = self.client.get(reverse("minipages:page-list"))
         self.assertEqual(response.status_code, 200)
 
     def test_route_from_path(self):
-        response = self.client.get('/pages/')
+        response = self.client.get("/pages/")
         self.assertEqual(response.status_code, 200)
 
     def test_templates_used(self):
-        response = self.client.get(reverse('minipages:page-list'))
+        response = self.client.get(reverse("minipages:page-list"))
         self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, 'minipages/page_list.html')
+        self.assertTemplateUsed(response, "minipages/page_list.html")
