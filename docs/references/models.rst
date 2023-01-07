@@ -7,3 +7,4 @@ Models
 
 .. autoclass:: minipages.models.Page
    :members:
+   :noindex:

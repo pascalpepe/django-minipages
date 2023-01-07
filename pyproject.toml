@@ -39,6 +39,7 @@ dependencies = [
 dynamic = ["version"]
 
 [project.urls]
+"Home" = "https://github.com/pascalpepe/django-minipages#readme"
 "Documentation" = "https://github.com/pascalpepe/django-minipages/tree/main/docs"
 "Source code" = "https://github.com/pascalpepe/django-minipages"
 "Issue tracker" = "https://github.com/pascalpepe/django-minipages/issues"

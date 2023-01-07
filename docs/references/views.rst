@@ -7,6 +7,7 @@ Views
 
 .. autoclass:: minipages.views.PageDetail
    :members:
+   :noindex:
 
 
 ``PageList``
@@ -14,3 +15,4 @@ Views
 
 .. autoclass:: minipages.views.PageList
    :members:
+   :noindex:
