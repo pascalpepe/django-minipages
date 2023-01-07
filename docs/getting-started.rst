@@ -23,13 +23,13 @@ Python and Django compatibility
 
 This project requires the following:
 
-======= ===================================
+======= ====================
 Django  Python
-======= ===================================
-2.2 LTS 3.5, 3.6, 3.7, 3.8 (added in 2.2.8)
-------- -----------------------------------
-3.1     3.6, 3.7, 3.8
-======= ===================================
+======= ====================
+3.2 LTS 3.7, 3.8, 3.9, 3.10
+------- --------------------
+4.1     3.8, 3.9, 3.10, 3.11
+======= ====================
 
 We highly recommend the latest release of each series for both Python and
 Django.
@@ -85,13 +85,13 @@ Quick start guide
 Settings
 --------
 
-Add ``'minipages'`` to your ``INSTALLED_APPS`` setting:
+Add ``"minipages"`` to your ``INSTALLED_APPS`` setting:
 
 .. code-block:: python
 
     INSTALLED_APPS = [
+        "minipages",
         ...
-        'minipages',
     ]
 
 URL configuration
@@ -105,7 +105,7 @@ Include the application URLconf in your project ``urls.py`` like this:
 
     urlpatterns = [
         ...
-        path('pages/', include('minipages.urls')),
+        path("pages/", include("minipages.urls")),
     ]
 
 Database
@@ -116,7 +116,7 @@ Run ``python manage.py migrate`` to create the database tables.
 Create some pages
 -----------------
 
-Start the development server and visit http://127.0.0.1:8000/admin/ to create
+Start the development server and visit http://localhost:8000/admin/ to create
 a page. You will need to activate the
 `Django admin site <https://docs.djangoproject.com/en/dev/ref/contrib/admin/>`_
 for this.
@@ -124,4 +124,4 @@ for this.
 View your pages
 ---------------
 
-Visit http://127.0.0.1:8000/pages/ to view a list of your pages.
+Visit http://localhost:8000/pages/ to view a list of your pages.
