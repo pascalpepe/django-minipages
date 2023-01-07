@@ -73,8 +73,6 @@ jobs:
           python -m pip install -e .
           python -m pip install -r docs/requirements.txt
       - name: Check links in the documentation
-        run: |
-          sphinx-build -b linkcheck docs docs/_build
+        run: sphinx-build -b linkcheck docs docs/_build
       - name: Build the documentation
-        run: |
-          sphinx-build -a -E -W --keep-going docs docs/_build
+        run: sphinx-build -a -E -W --keep-going docs docs/_build
