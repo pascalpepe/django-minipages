@@ -76,4 +76,4 @@ GitLab Pages
 ============
 
 - Set up GitLab CI/CD to continuously deploy the documentation for the main
-  branch on GitLab Pages: https://pascalpepe.gitlab.io/django-minipages
+  branch on GitLab Pages.
