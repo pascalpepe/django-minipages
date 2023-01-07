@@ -34,7 +34,7 @@ classifiers = [
   "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
 ]
 dependencies = [
-  "django>=3.2.9",
+  "django>=3.2",
 ]
 dynamic = ["version"]
 
