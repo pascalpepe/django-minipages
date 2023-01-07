@@ -1,5 +1,5 @@
 =========
-miniPages
+MiniPages
 =========
 
 .. image:: https://img.shields.io/pypi/l/django-minipages
@@ -18,7 +18,7 @@ miniPages
    :alt: Django
    :target: https://pypi.org/project/django-minipages/
 
-miniPages is a Django application for managing simple web pages.
+MiniPages is a Django application for managing simple web pages.
 
 :Home: https://github.com/pascalpepe/django-minipages#readme
 :Documentation: https://github.com/pascalpepe/django-minipages/tree/main/docs
@@ -56,18 +56,7 @@ https://github.com/pascalpepe/django-minipages/tree/main/docs.
 - `Release notes <https://github.com/pascalpepe/django-minipages/tree/main/docs/releases>`_
 
 
-Licenses
-========
-
-Source code
------------
+License
+=======
 
 This project is licensed under the `Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_.
-
-Documentation
--------------
-
-The documentation of this project is licensed under a `Creative Commons Attribution-ShareAlike 4.0 International License <https://creativecommons.org/licenses/by-sa/4.0/>`_.
-
-Code samples and snippets found in the documentation are licensed under
-the Apache License 2.0, same as the project source code.

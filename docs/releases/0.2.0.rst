@@ -1,5 +1,5 @@
 =============================
-miniPages 0.2.0 release notes
+MiniPages 0.2.0 release notes
 =============================
 
 *In development*
@@ -13,8 +13,8 @@ GitLab to GitHub
 - Replaced GitLab CI/CD with GitHub Actions for continuous integration.
 
 
-Packaging
-=========
+Project layout and packaging
+============================
 
 - Moved the ``minipages`` package to a ``src/`` directory.
 - Replaced ``setup.py`` and ``setup.cfg`` with ``pyproject.toml`` to follow the
@@ -51,3 +51,10 @@ Tests
     of Python and Django.
   * Check links in the documentation.
   * Build the documentation.
+
+
+Documentation
+=============
+
+- Changed Sphinx documentation theme to `Furo <https://pradyunsg.me/furo/>`_.
+- Updated Sphinx to version 6.1.

@@ -1,11 +1,8 @@
 =======================
-miniPages documentation
+MiniPages documentation
 =======================
 
-miniPages is a reusable Django application for managing simple web pages.
-
-
-----
+MiniPages is a reusable Django application for managing simple web pages.
 
 :Home: https://github.com/pascalpepe/django-minipages#readme
 :Documentation: https://github.com/pascalpepe/django-minipages/tree/main/docs
@@ -17,8 +14,6 @@ miniPages is a reusable Django application for managing simple web pages.
    This project is still in its initial development stage. Anything may change
    at any time.
 
-
-----
 
 Contents
 ========
