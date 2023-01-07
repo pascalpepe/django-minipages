@@ -69,11 +69,11 @@ Get the latest development version
    encounter new bugs in the development version.
 
 You can install the latest development version of this project from
-the `Git repository <https://gitlab.com/pascalpepe/django-minipages>`_:
+the `Git repository <https://github.com/pascalpepe/django-minipages>`_:
 
 .. code-block:: bash
 
-    pip install git+https://gitlab.com/pascalpepe/django-minipages.git@main#egg=django-minipages
+    pip install git+https://github.com/pascalpepe/django-minipages.git@main#egg=django-minipages
 
 
 ----
