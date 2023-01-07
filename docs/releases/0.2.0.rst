@@ -29,3 +29,13 @@ Tests
 
   * `black <https://black.readthedocs.io>`_ for formatting Python code.
   * `isort <https://pycqa.github.io/isort/>`_ for sorting imports.
+
+- Updated support to the following versions of Python and Django:
+
+  ======= ====================
+  Django  Python
+  ======= ====================
+  3.2 LTS 3.7, 3.8, 3.9, 3.10
+  ------- --------------------
+  4.1     3.8, 3.9, 3.10, 3.11
+  ======= ====================
