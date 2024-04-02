@@ -57,4 +57,4 @@ Documentation
 =============
 
 - Changed Sphinx documentation theme to `Furo <https://pradyunsg.me/furo/>`_.
-- Updated Sphinx to version 6.1.
+- Updated Sphinx to version 7.2.

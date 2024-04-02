@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "django-minipages"
 description = "Django application for managing simple web pages."
-readme = "README.rst"
+readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "Apache-2.0" }
 keywords = ["django", "pages"]

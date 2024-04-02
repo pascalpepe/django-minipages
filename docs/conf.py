@@ -24,7 +24,7 @@ django.setup()
 
 project = "MiniPages"
 author = "Pascal Pepe"
-copyright = f"2017-2023, {author}"
+copyright = f"2017-2024, {author}"
 release = "0.2.0"
 
 
@@ -37,7 +37,7 @@ extensions = [
 ]
 
 templates_path = []
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "README.rst"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "README.md"]
 
 
 # -- Options for HTML output -------------------------------------------------
