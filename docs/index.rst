@@ -20,3 +20,10 @@ Contents
    references/index
    releases/index
    license
+
+.. toctree::
+   :hidden:
+   :caption: Project Links
+
+   GitHub <https://github.com/pascalpepe/django-minipages>
+   PyPI <https://pypi.org/project/django-minipages>

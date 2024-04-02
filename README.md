@@ -17,8 +17,6 @@ any time.
 
 ## Documentation
 
-The documentation of this project is available at
-https://github.com/pascalpepe/django-minipages/tree/main/docs.
 
 - [Getting started](https://github.com/pascalpepe/django-minipages/blob/main/docs/getting-started.rst)
 - [Module references](https://github.com/pascalpepe/django-minipages/tree/main/docs/references)
@@ -27,4 +25,4 @@ https://github.com/pascalpepe/django-minipages/tree/main/docs.
 
 ## License
 
-This project is licensed under the `Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_.
+This project is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
