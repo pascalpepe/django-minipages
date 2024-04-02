@@ -24,7 +24,7 @@ django.setup()
 
 project = "MiniPages"
 author = "Pascal Pepe"
-copyright = f"2017-2023, {author}"
+copyright = f"2017-2024, {author}"
 release = "0.2.0"
 
 
