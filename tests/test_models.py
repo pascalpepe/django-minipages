@@ -28,10 +28,10 @@ class PageModelTest(TestCase):
 
     def test_title_max_length(self):
         max_length = self.page._meta.get_field("title").max_length
-        self.assertEquals(max_length, 255)
+        self.assertEqual(max_length, 255)
 
     def test_object_string_representation(self):
-        self.assertEquals(str(self.page), self.page.title)
+        self.assertEqual(str(self.page), self.page.title)
 
     def test_get_absolute_url(self):
-        self.assertEquals(self.page.get_absolute_url(), "/pages/1/")
+        self.assertEqual(self.page.get_absolute_url(), "/pages/1/")
