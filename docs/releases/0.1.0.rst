@@ -32,10 +32,10 @@ Tests
 
 - Set up the project testing suite with:
 
-  * `tox <https://tox.readthedocs.io>`_ for automated testing,
+  * tox for automated testing,
   * `Coverage.py <https://coverage.readthedocs.io>`_ for measuring code coverage,
   * `Flake8 <https://flake8.readthedocs.io>`_ for linting,
-  * `GitLab CI/CD <https://docs.gitlab.com/ee/ci/README.html>`_ for continuous integration.
+  * GitLab CI/CD for continuous integration.
 
 - Added tox environments and GitLab CI jobs to support the following versions of Python and Django:
 
