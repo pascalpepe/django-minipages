@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "django-minipages"
 description = "Django application for managing simple web pages."
 readme = "README.rst"
-requires-python = ">=3.7"
+requires-python = ">=3.8"
 license = { text = "Apache-2.0" }
 keywords = ["django", "pages"]
 authors = [
@@ -16,25 +16,25 @@ classifiers = [
   "Development Status :: 1 - Planning",
   "Environment :: Web Environment",
   "Framework :: Django",
-  "Framework :: Django :: 3.2",
-  "Framework :: Django :: 4.1",
+  "Framework :: Django :: 4.2",
+  "Framework :: Django :: 5.0",
   "Intended Audience :: Developers",
   "License :: OSI Approved :: Apache Software License",
   "Operating System :: OS Independent",
   "Programming Language :: Python",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3 :: Only",
-  "Programming Language :: Python :: 3.7",
   "Programming Language :: Python :: 3.8",
   "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
   "Topic :: Internet",
   "Topic :: Internet :: WWW/HTTP",
   "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
 ]
 dependencies = [
-  "django>=3.2",
+  "django>=4.2",
 ]
 dynamic = ["version"]
 
